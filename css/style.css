@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border:1px solid black;
+
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.flex-container{
+    background-color:pink;
+     height:1200px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap:wrap; 
+    align-content:center;
+
+
+}
+
+.flex-item{
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+
